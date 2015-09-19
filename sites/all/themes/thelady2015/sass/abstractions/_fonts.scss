@@ -1,0 +1,53 @@
+// FONT INCLUDES
+// =============================================================================
+
+/* @font-face or @import fonts here */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+
+// FONT MIXINS
+// =============================================================================
+
+@mixin font-light {
+  font-family: 'Rock Salt', cursive;
+  font-weight: 100;
+}
+
+@mixin font-regular {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+@mixin font-semibold {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+@mixin font-bold {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+
+
+// THE DIFFERENT FONT FAMILIES ARE DEFINED HERE
+// =============================================================================
+$google_fonts: 'Droid Serif', arial, serif;
+$paragraphs: 'Source Sans Pro', sans-serif;
+
+
+// ALL THE HEADING FONT SIZEZ THAT ARE USED IN THE SITE
+// =============================================================================
+$thelady_h1_font_size: 35px;
+$thelady_h2_font_size: 25px;
+$thelady_h3_font_size: 20px;
+$thelady_h4_font_size: 16px;
+
+
+
+// ALL THE FONT SIZES FOR THE PARAGRAPHS, FOOTER AND MENU ITEMS
+// =============================================================================
+$thelady_para_font_size: 15px;
+$thelady_footer_para: 12px;
+$thelady_menu_items_font_size: 14px;

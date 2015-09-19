@@ -1,0 +1,27 @@
+// HEADER STYLES
+// =============================================================================
+
+header{
+  /* Menu Bar */
+  #block-superfish-1 {
+    float: right;
+    margin-top: -128px;
+    padding-right: 80px;
+    #superfish-1 {
+      li {
+        display: inline;
+        text-transform: uppercase;
+        font-family: $paragraphs;
+        font-size: 25px;
+        padding: 0 10px;
+        a {
+          color: $thelady_menu_item_color;
+          text-decoration: none;
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}

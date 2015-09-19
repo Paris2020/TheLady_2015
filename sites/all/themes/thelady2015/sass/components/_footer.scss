@@ -1,0 +1,93 @@
+// FOOTER STYLES
+// =============================================================================
+footer{
+  font-size: 12px;
+  background: $charcoal;
+  border-top: 1px solid darken($body-bg, 20%);
+  padding-top: 20px;
+  font-family: $paragraphs;
+  color: $white;
+
+  .the-lady-footer {
+    position: relative;
+    clear: both;
+    margin-top: 1px;
+    color: rgb(68, 68, 68);
+    overflow: hidden;
+    .footer{
+      display: block;
+      font-size: 14px;
+      .inner {
+        max-width: 100%;
+        padding: 0 66px;
+        margin: 0 auto;
+        transition: all .3s ease-out;
+        .copy{
+          a{
+            &:hover{
+              color: $primary_color;
+            }
+          }
+        }
+        li {
+          float: left;
+          margin: 0 15px 10px 0;
+          padding-right: 15px;
+          text-transform: uppercase;
+          font-family: 'MuseoSans_Fat';
+          border-right: 1px solid #333;
+          list-style-type: none;
+          a{
+            &:hover {
+              color: $primary_color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+  /* Facebook and Twitter Footer Social Links */
+  .footer-social-links {
+    .social-links{
+      ul {
+        padding-top: 12px;
+        margin-left: 185px;
+        li {
+          display: inline;
+          padding: 5px;
+          a {
+            color: darken($primary_color, 25%);
+            &:hover {
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Footer Menu Links */
+
+    .footer{
+      .inner {
+        .copy{
+          a{
+            &:hover{
+
+            }
+          }
+        }
+        li {
+          a{
+            &:hover {
+            }
+          }
+        }
+      }
+    }
+
+}

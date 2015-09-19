@@ -1,6 +1,6 @@
 //*********** IMPORTS *****************
 var gulp 					= require('gulp'),
-		globbing      = require('gulp-css-globbing'),
+		 globbing      = require('gulp-css-globbing'),
 		sass 					= require('gulp-sass'),
 		watch 				= require('gulp-watch');
 

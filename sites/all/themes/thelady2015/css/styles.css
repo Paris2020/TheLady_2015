@@ -1,2 +1,81 @@
-/* No files to import found in _variables//* */
+/*Set container height/width to 100%*/
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #0EB2B8; }
+
+.the-lady-main-div {
+  margin: 40px auto;
+  max-width: 1280px;
+  background: #fff;
+  box-shadow: black 0px 0px 30px; }
+
+/* @font-face or @import fonts here */
+footer {
+  font-size: 12px;
+  background: #555555;
+  border-top: 1px solid #cccccc;
+  padding-top: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  /* Facebook and Twitter Footer Social Links */
+  /* Footer Menu Links */ }
+  footer .the-lady-footer {
+    position: relative;
+    clear: both;
+    margin-top: 1px;
+    color: #444444;
+    overflow: hidden; }
+    footer .the-lady-footer .footer {
+      display: block;
+      font-size: 14px; }
+      footer .the-lady-footer .footer .inner {
+        max-width: 100%;
+        padding: 0 66px;
+        margin: 0 auto;
+        transition: all 0.3s ease-out; }
+        footer .the-lady-footer .footer .inner .copy a:hover {
+          color: #0DAFB5; }
+        footer .the-lady-footer .footer .inner li {
+          float: left;
+          margin: 0 15px 10px 0;
+          padding-right: 15px;
+          text-transform: uppercase;
+          font-family: 'MuseoSans_Fat';
+          border-right: 1px solid #333;
+          list-style-type: none; }
+          footer .the-lady-footer .footer .inner li a:hover {
+            color: #0DAFB5; }
+  footer .footer-social-links .social-links ul {
+    padding-top: 12px;
+    margin-left: 185px; }
+    footer .footer-social-links .social-links ul li {
+      display: inline;
+      padding: 5px; }
+      footer .footer-social-links .social-links ul li a {
+        color: #043c3e; }
+        footer .footer-social-links .social-links ul li a:hover {
+          color: #fff; }
+
+header {
+  /* Menu Bar */ }
+  header #block-superfish-1 {
+    float: right;
+    margin-top: -128px;
+    padding-right: 80px; }
+    header #block-superfish-1 #superfish-1 li {
+      display: inline;
+      text-transform: uppercase;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 25px;
+      padding: 0 10px; }
+      header #block-superfish-1 #superfish-1 li a {
+        color: #58585A;
+        text-decoration: none; }
+        header #block-superfish-1 #superfish-1 li a:hover {
+          color: #0DAFB5; }
+
 /* No files to import found in pages//* */
