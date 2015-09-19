@@ -1,0 +1,34 @@
+name = The Lady Theme
+description = Custom made Theme by Nelly Moseki
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/animate.css
+;stylesheets[all][] = css/jquery.sidr.light.css
+;stylesheets[all][] = fonts/font-awesome.css
+;stylesheets[all][] = fonts/font-awesome.min.css
+
+
+; ========================================
+; Scripts
+; ========================================
+;scripts[] = js/behaviors.js
+;scripts[] = js/jquery.sidr.min.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer
