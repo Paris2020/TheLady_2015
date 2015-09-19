@@ -1,0 +1,14 @@
+﻿Added gulp-css globbing and gulp-sass
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch dev
+# Changes to be committed:
+#	deleted:    sites/all/themes/thelady2015/npm-debug.log
+#	modified:   sites/all/themes/thelady2015/package.json
+#	modified:   sites/all/themes/thelady2015/sass/abstractions/_basics.scss
+#	modified:   sites/all/themes/thelady2015/sass/styles.scss
+#
+# Untracked files:
+#	sites/all/themes/thelady2015/node_modules/gulp-sass/
+#
+
