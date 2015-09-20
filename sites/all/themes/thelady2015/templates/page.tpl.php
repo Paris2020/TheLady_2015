@@ -124,19 +124,19 @@
     <?php //print render($page['footer']); ?>
     <?php // Footer ?>
       <div class="footer-menu">
-        <div class="subcription-div">
-          <?php print render($page['footer_form']); ?>
-        </div>
         <div class="footer-social-links">
           <div class="social-links">
             <ul>
-              <li><a target="_blank" href="http://www.facebook.com/thelady2015" class="fa fa-facebook-official fa-2x"></a></li>
-              <li><a target="_blank" href="https://twitter.com/TheLady2015" class="fa fa-twitter fa-2x"></a></li>
+              <li><a target="_blank" href="http://www.facebook.com/thelady2015" class="fa fa-facebook-official fa-3x"></a></li>
+              <li><a target="_blank" href="https://twitter.com/TheLady2015" class="fa fa-twitter fa-3x"></a></li>
             </ul>
           </div>
         </div>
+        <div class="subcription-div">
+          <?php print render($page['footer_form']); ?>
+        </div>
       </div>
-      <nav class="footer">
+      <nav class="footer-nav">
         <div class="inner">
           <div class="left">
             <div class="copy"><a href="http://www.thelady.co.za">© THE LADY COPYRIGHT 2015</a></div>

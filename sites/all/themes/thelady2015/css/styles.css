@@ -21,44 +21,91 @@ footer {
   padding-top: 20px;
   font-family: "Source Sans Pro", sans-serif;
   color: #fff;
-  /* Facebook and Twitter Footer Social Links */
-  /* Footer Menu Links */ }
-  footer .the-lady-footer {
-    position: relative;
-    clear: both;
-    margin-top: 1px;
-    color: #444444;
-    overflow: hidden; }
-    footer .the-lady-footer .footer {
-      display: block;
-      font-size: 14px; }
-      footer .the-lady-footer .footer .inner {
-        max-width: 100%;
-        padding: 0 66px;
-        margin: 0 auto;
-        transition: all 0.3s ease-out; }
-        footer .the-lady-footer .footer .inner .copy a:hover {
+  /* Facebook & Twitter Social Links */
+  /* Entity Form */
+  /* Footer Navigation */ }
+  footer .footer-social-links {
+    float: right;
+    padding: 0 60px;
+    margin-top: -10px; }
+    footer .footer-social-links ul {
+      list-style-type: none; }
+      footer .footer-social-links ul li {
+        display: inline;
+        padding: 5px; }
+        footer .footer-social-links ul li a {
+          color: #043c3e;
+          text-decoration: none; }
+          footer .footer-social-links ul li a:hover {
+            color: #fff; }
+  footer .subcription-div h2 {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0 20px; }
+  footer .subcription-div .entitytype-subscribe_to_newsletter-form .pre-instructions {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 20px;
+    margin-top: -15px; }
+  footer .subcription-div .entitytype-subscribe_to_newsletter-form label {
+    font-size: 18px;
+    font-weight: 400; }
+  footer .subcription-div .entitytype-subscribe_to_newsletter-form input[type="text"] {
+    height: 30px;
+    width: 75%;
+    max-width: 100%; }
+  footer .subcription-div .entitytype-subscribe_to_newsletter-form input[type="submit"] {
+    height: 37px;
+    width: 100px;
+    margin-left: -90px;
+    margin-top: 32px;
+    background-color: #0DAFB5;
+    border: 1px solid #0DAFB5;
+    color: #fff; }
+    footer .subcription-div .entitytype-subscribe_to_newsletter-form input[type="submit"]:hover {
+      background-color: #58585A;
+      border: 1px solid #58585A;
+      color: #0DAFB5; }
+  footer .subcription-div .entitytype-subscribe_to_newsletter-form .field-name-field-name {
+    float: left;
+    width: 40%;
+    padding: 0 10px 0 20px; }
+  footer .subcription-div .entitytype-subscribe_to_newsletter-form .field-name-field-email {
+    float: left;
+    width: 40%;
+    margin-left: -100px; }
+  footer .footer-nav {
+    display: block;
+    font-size: 14px;
+    padding: 60px; }
+    footer .footer-nav .left {
+      float: left;
+      margin-left: -37px;
+      padding-top: 15px; }
+      footer .footer-nav .left .copy a {
+        color: #202020;
+        line-height: inherit;
+        text-decoration: none; }
+        footer .footer-nav .left .copy a:hover {
           color: #0DAFB5; }
-        footer .the-lady-footer .footer .inner li {
-          float: left;
-          margin: 0 15px 10px 0;
-          padding-right: 15px;
+    footer .footer-nav .right {
+      float: right;
+      margin-right: 135px; }
+      footer .footer-nav .right ul {
+        list-style-type: none; }
+        footer .footer-nav .right ul li {
+          display: inline;
           text-transform: uppercase;
+          font-size: 18px;
+          font-weight: 100;
+          padding: 0 10px;
           font-family: 'MuseoSans_Fat';
-          border-right: 1px solid #333;
-          list-style-type: none; }
-          footer .the-lady-footer .footer .inner li a:hover {
-            color: #0DAFB5; }
-  footer .footer-social-links .social-links ul {
-    padding-top: 12px;
-    margin-left: 185px; }
-    footer .footer-social-links .social-links ul li {
-      display: inline;
-      padding: 5px; }
-      footer .footer-social-links .social-links ul li a {
-        color: #043c3e; }
-        footer .footer-social-links .social-links ul li a:hover {
-          color: #fff; }
+          border-right: 1px solid #333; }
+          footer .footer-nav .right ul li a {
+            color: #202020;
+            text-decoration: none; }
+            footer .footer-nav .right ul li a:hover {
+              color: #0DAFB5; }
 
 header {
   /* Menu Bar */ }
