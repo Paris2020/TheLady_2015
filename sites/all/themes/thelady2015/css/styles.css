@@ -28,15 +28,15 @@ footer {
     float: right;
     padding: 0 60px;
     margin-top: -10px; }
-    footer .footer-social-links ul {
+    footer .footer-social-links .social-links ul {
       list-style-type: none; }
-      footer .footer-social-links ul li {
+      footer .footer-social-links .social-links ul li {
         display: inline;
         padding: 5px; }
-        footer .footer-social-links ul li a {
+        footer .footer-social-links .social-links ul li a {
           color: #043c3e;
           text-decoration: none; }
-          footer .footer-social-links ul li a:hover {
+          footer .footer-social-links .social-links ul li a:hover {
             color: #fff; }
   footer .subcription-div h2 {
     font-size: 30px;
@@ -77,11 +77,11 @@ footer {
   footer .footer-nav {
     display: block;
     font-size: 14px;
-    padding: 60px; }
+    padding: 60px 0 0 0; }
     footer .footer-nav .left {
       float: left;
-      margin-left: -37px;
-      padding-top: 15px; }
+      margin-left: 22px;
+      margin-top: -30px; }
       footer .footer-nav .left .copy a {
         color: #202020;
         line-height: inherit;
@@ -90,7 +90,8 @@ footer {
           color: #0DAFB5; }
     footer .footer-nav .right {
       float: right;
-      margin-right: 135px; }
+      margin-right: 200px;
+      margin-top: -45px; }
       footer .footer-nav .right ul {
         list-style-type: none; }
         footer .footer-nav .right ul li {
@@ -107,22 +108,81 @@ footer {
             footer .footer-nav .right ul li a:hover {
               color: #0DAFB5; }
 
+header .site-logo img {
+  padding-top: 10px; }
+
 header {
   /* Menu Bar */ }
   header #block-superfish-1 {
     float: right;
-    margin-top: -128px;
-    padding-right: 80px; }
+    margin-top: -110px;
+    padding-right: 70px; }
     header #block-superfish-1 #superfish-1 li {
       display: inline;
       text-transform: uppercase;
       font-family: "Source Sans Pro", sans-serif;
-      font-size: 25px;
+      font-size: 23px;
       padding: 0 10px; }
       header #block-superfish-1 #superfish-1 li a {
         color: #58585A;
         text-decoration: none; }
         header #block-superfish-1 #superfish-1 li a:hover {
           color: #0DAFB5; }
+
+.pane-views-latest-events-block h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #086a6e;
+  color: white;
+  padding: 20px;
+  position: absolute;
+  margin-top: -20px; }
+
+.pane-views-latest-events-block .view-latest-events {
+  padding-top: 75px; }
+  .pane-views-latest-events-block .view-latest-events .views-row {
+    float: left;
+    padding: 0 60px; }
+    .pane-views-latest-events-block .view-latest-events .views-row .views-field-title {
+      font-size: 30px;
+      font-weight: 600;
+      text-align: center;
+      font-family: "Source Sans Pro", sans-serif; }
+      .pane-views-latest-events-block .view-latest-events .views-row .views-field-title a {
+        text-decoration: none;
+        color: #58585A; }
+    .pane-views-latest-events-block .view-latest-events .views-row .views-field-field-event-image {
+      text-align: center;
+      padding: 20px 0 20px 0; }
+    .pane-views-latest-events-block .view-latest-events .views-row .views-field-field-event-date {
+      font-size: 18px;
+      font-weight: 300;
+      text-align: center;
+      font-family: "Source Sans Pro", sans-serif;
+      padding: 0 0 10px 0; }
+    .pane-views-latest-events-block .view-latest-events .views-row .views-field-field-venue {
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+      font-family: "Source Sans Pro", sans-serif;
+      padding: 0 0 60px 0; }
+
+.view-frontpage-slideshow .views-row .views-field-title {
+  position: absolute;
+  bottom: 35px;
+  right: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  background-color: #58585A;
+  opacity: 0.5;
+  width: 300px;
+  height: 28px;
+  margin-left: 165px;
+  text-transform: uppercase; }
+  .view-frontpage-slideshow .views-row .views-field-title span {
+    font-size: 20px;
+    color: #fff; }
 
 /* No files to import found in pages//* */

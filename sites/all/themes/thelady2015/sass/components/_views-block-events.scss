@@ -1,0 +1,50 @@
+// VIEWS BLOCK EVENTS
+// =============================================================================
+.pane-views-latest-events-block{
+  h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: $paragraphs;
+    background-color: darken($primary_color, 15%);
+    color: white;
+    padding: 20px;
+    position: absolute;
+    margin-top: -20px;
+  }
+  .view-latest-events{
+    padding-top: 75px;
+    .views-row{
+      float: left;
+      padding: 0 60px;
+      .views-field-title{
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        font-family: $paragraphs;
+        a{
+          text-decoration: none;
+          color: $fourth_color;
+        }
+      }
+      .views-field-field-event-image{
+        text-align: center;
+        padding: 20px 0 20px 0;
+      }
+      .views-field-field-event-date{
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+        font-family: $paragraphs;
+        padding: 0 0 10px 0;
+      }
+      .views-field-field-venue{
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        font-family: $paragraphs;
+        padding: 0 0 60px 0;
+      }
+    }
+  }
+}

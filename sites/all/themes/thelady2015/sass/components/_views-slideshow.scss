@@ -1,0 +1,27 @@
+// VIEWS SLIDESHOW
+// =============================================================================
+
+.view-frontpage-slideshow{
+  .views-row{
+    .views-field-field-slide-image{
+
+    }
+    .views-field-title{
+      position: absolute;
+      bottom: 35px;
+      right: 0px;
+      font-family: $paragraphs;
+      text-align: center;
+      background-color: $thelady_menu_item_color;
+      opacity: 0.5;
+      width: 300px;
+      height: 28px;
+      margin-left: 165px;
+      text-transform: uppercase;
+      span{
+        font-size: 20px;
+        color: $white;
+      }
+    }
+  }
+}

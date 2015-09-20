@@ -13,16 +13,18 @@ footer{
     float: right;
     padding: 0 60px;
     margin-top: -10px;
-    ul{;
-      list-style-type: none;
-      li{
-        display: inline;
-        padding: 5px;
-        a{
-          color: darken($primary_color, 25%);
-          text-decoration: none;
-          &:hover{
-            color: $white;
+    .social-links{
+      ul{;
+        list-style-type: none;
+        li{
+          display: inline;
+          padding: 5px;
+          a{
+            color: darken($primary_color, 25%);
+            text-decoration: none;
+            &:hover{
+              color: $white;
+            }
           }
         }
       }
@@ -83,11 +85,11 @@ footer{
   .footer-nav{
     display: block;
     font-size: 14px;
-    padding: 60px;
+    padding: 60px 0 0 0;
     .left{
       float: left;
-      margin-left: -37px;
-      padding-top: 15px;
+      margin-left: 22px;
+      margin-top: -30px;
       .copy{
         a{
           color: #202020;
@@ -101,7 +103,9 @@ footer{
     }
     .right{
       float: right;
-      margin-right: 135px;
+      margin-right: 200px;
+      margin-top: -45px;
+
       ul{
         list-style-type: none;
         li{
