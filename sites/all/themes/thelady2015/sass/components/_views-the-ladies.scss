@@ -1,0 +1,42 @@
+// THE LADIES VIEW
+// =============================================================================
+
+
+.the-ladies{
+  padding-top: 10px;
+  h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: $paragraphs;
+    background-color: darken($primary_color, 15%);
+    color: white;
+    padding: 20px;
+    position: absolute;
+    margin-top: 5px;
+  }
+  .view-the-ladies{
+    text-align: center;
+    margin-left: 70px;
+    padding-top: 110px;
+    .views-row{
+      float: left;
+      padding: 20px 40px;
+      .views-field-field-lady-image{
+        padding-bottom: 10px;
+      }
+      .views-field-title{
+        font-weight: 400;
+        font-family: $paragraphs;
+        font-size: 18px;
+        a{
+          text-decoration: none;
+          color: $thelady_menu_item_color;
+          &:hover{
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}

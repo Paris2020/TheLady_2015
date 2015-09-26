@@ -15,17 +15,17 @@ html, body {
 
 /* @font-face or @import fonts here */
 /* The story behind - The Lady */
-.panel-col-top {
+.the-story {
   padding-bottom: 60px; }
-  .panel-col-top .field-name-field-basic-image {
+  .the-story .field-name-field-basic-image {
     float: left;
     width: 40%;
     margin-left: 100px;
     padding: 65px 0 0 0; }
-    .panel-col-top .field-name-field-basic-image img {
+    .the-story .field-name-field-basic-image img {
       border-radius: 100%;
       box-shadow: #666666 0px 0px 15px; }
-  .panel-col-top .field-name-body {
+  .the-story .field-name-body {
     float: right;
     width: 60%;
     font-weight: 100;
@@ -35,24 +35,24 @@ html, body {
     position: absolute;
     color: #58585A;
     line-height: 1.35em; }
-    .panel-col-top .field-name-body h2 {
+    .the-story .field-name-body h2 {
       margin-left: -5px; }
-    .panel-col-top .field-name-body a {
+    .the-story .field-name-body a {
       text-decoration: none;
       color: #58585A; }
-      .panel-col-top .field-name-body a:hover {
+      .the-story .field-name-body a:hover {
         color: #0DAFB5; }
 
 /* The Founder */
-.panel-col-bottom {
+.the-founder {
   padding-bottom: 60px; }
-  .panel-col-bottom .field-name-field-basic-image {
+  .the-founder .field-name-field-basic-image {
     float: right;
     width: 40%;
     margin-right: -180px; }
-    .panel-col-bottom .field-name-field-basic-image img {
+    .the-founder .field-name-field-basic-image img {
       border-radius: 100%; }
-  .panel-col-bottom .field-name-body {
+  .the-founder .field-name-body {
     float: left;
     width: 60%;
     font-weight: 100;
@@ -62,37 +62,37 @@ html, body {
     color: #58585A;
     line-height: 1.35em;
     /* Founders Links */ }
-    .panel-col-bottom .field-name-body h2 {
+    .the-founder .field-name-body h2 {
       margin-left: -3px; }
-    .panel-col-bottom .field-name-body a {
+    .the-founder .field-name-body a {
       text-decoration: none;
       color: #58585A; }
-      .panel-col-bottom .field-name-body a:hover {
+      .the-founder .field-name-body a:hover {
         color: #0DAFB5; }
-    .panel-col-bottom .field-name-body .contact-details {
+    .the-founder .field-name-body .contact-details {
       float: right;
       margin-right: -330px;
       /* Founder's Website*/ }
-      .panel-col-bottom .field-name-body .contact-details ul {
+      .the-founder .field-name-body .contact-details ul {
         margin-left: -15px;
         margin-top: 10px;
         list-style-type: none;
         padding: 0px; }
-        .panel-col-bottom .field-name-body .contact-details ul li {
+        .the-founder .field-name-body .contact-details ul li {
           display: inline;
           padding: 5px; }
-          .panel-col-bottom .field-name-body .contact-details ul li a {
+          .the-founder .field-name-body .contact-details ul li a {
             color: #086a6e; }
-            .panel-col-bottom .field-name-body .contact-details ul li a:hover {
+            .the-founder .field-name-body .contact-details ul li a:hover {
               color: #070707; }
-      .panel-col-bottom .field-name-body .contact-details .founders-website {
+      .the-founder .field-name-body .contact-details .founders-website {
         margin-left: -60px;
         font-weight: 800;
         color: #0DAFB5;
         font-family: "Source Sans Pro", sans-serif; }
-        .panel-col-bottom .field-name-body .contact-details .founders-website a {
+        .the-founder .field-name-body .contact-details .founders-website a {
           font-weight: normal; }
-          .panel-col-bottom .field-name-body .contact-details .founders-website a:hover {
+          .the-founder .field-name-body .contact-details .founders-website a:hover {
             color: #0DAFB5; }
 
 footer {
@@ -265,5 +265,36 @@ header {
   .view-frontpage-slideshow .views-row .views-field-title span {
     font-size: 20px;
     color: #fff; }
+
+.the-ladies {
+  padding-top: 10px; }
+  .the-ladies h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #086a6e;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    margin-top: 5px; }
+  .the-ladies .view-the-ladies {
+    text-align: center;
+    margin-left: 70px;
+    padding-top: 110px; }
+    .the-ladies .view-the-ladies .views-row {
+      float: left;
+      padding: 20px 40px; }
+      .the-ladies .view-the-ladies .views-row .views-field-field-lady-image {
+        padding-bottom: 10px; }
+      .the-ladies .view-the-ladies .views-row .views-field-title {
+        font-weight: 400;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 18px; }
+        .the-ladies .view-the-ladies .views-row .views-field-title a {
+          text-decoration: none;
+          color: #58585A; }
+          .the-ladies .view-the-ladies .views-row .views-field-title a:hover {
+            color: #0DAFB5; }
 
 /* No files to import found in pages//* */
