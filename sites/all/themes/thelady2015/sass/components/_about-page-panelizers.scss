@@ -1,0 +1,107 @@
+//
+// =============================================================================
+
+/* The story behind - The Lady */
+.panel-col-top{
+  padding-bottom: 60px;
+  .field-name-field-basic-image{
+    float: left;
+    width: 40%;
+    margin-left: 100px;
+    padding: 65px 0 0 0;
+    img{
+      border-radius: 100%;
+      box-shadow: #666666 0px 0px 15px;
+    }
+  }
+  .field-name-body{
+    h2{
+      margin-left: -5px;
+    }
+    float: right;
+    width: 60%;
+    font-weight: 100;
+    font-family: $paragraphs;
+    font-size: 18px;
+    margin-left: 430px;
+    position: absolute;
+    color: $thelady_menu_item_color;
+    line-height: 1.35em;
+    a{
+      text-decoration: none;
+      color: $thelady_menu_item_color;
+      &:hover{
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+/* The Founder */
+.panel-col-bottom{
+  padding-bottom: 60px;
+  .field-name-field-basic-image{
+    float: right;
+    width: 40%;
+    margin-right: -180px;
+    img{
+      border-radius: 100%;
+    }
+  }
+  .field-name-body{
+    h2{
+      margin-left: -3px;
+    }
+    float: left;
+    width: 60%;
+    font-weight: 100;
+    font-family: $paragraphs;
+    font-size: 18px;
+    margin-left: 90px;
+    color: $thelady_menu_item_color;
+    line-height: 1.35em;
+    a{
+      text-decoration: none;
+      color: $thelady_menu_item_color;
+      &:hover{
+        color: $primary-color;
+      }
+    }
+
+    /* Founders Links */
+    .contact-details{
+      float: right;
+      margin-right: -330px;
+      ul{
+        margin-left: -15px;
+        margin-top: 10px;
+        list-style-type: none;
+        padding: 0px;
+        li {
+          display: inline;
+          padding: 5px;
+          a {
+            color: darken($primary_color, 15%);
+            &:hover {
+              color: darken($anchor_font_color, 10%);
+            }
+          }
+        }
+      }
+
+      /* Founder's Website*/
+      .founders-website{
+        margin-left: -60px;
+        font-weight: 800;
+        color: $primary_color;
+        font-family: $paragraphs;
+        a{
+          font-weight: normal;
+          &:hover{
+            color: $primary_color;
+          }
+        }
+      }
+    }
+  }
+}

@@ -14,6 +14,87 @@ html, body {
   box-shadow: black 0px 0px 30px; }
 
 /* @font-face or @import fonts here */
+/* The story behind - The Lady */
+.panel-col-top {
+  padding-bottom: 60px; }
+  .panel-col-top .field-name-field-basic-image {
+    float: left;
+    width: 40%;
+    margin-left: 100px;
+    padding: 65px 0 0 0; }
+    .panel-col-top .field-name-field-basic-image img {
+      border-radius: 100%;
+      box-shadow: #666666 0px 0px 15px; }
+  .panel-col-top .field-name-body {
+    float: right;
+    width: 60%;
+    font-weight: 100;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    margin-left: 430px;
+    position: absolute;
+    color: #58585A;
+    line-height: 1.35em; }
+    .panel-col-top .field-name-body h2 {
+      margin-left: -5px; }
+    .panel-col-top .field-name-body a {
+      text-decoration: none;
+      color: #58585A; }
+      .panel-col-top .field-name-body a:hover {
+        color: #0DAFB5; }
+
+/* The Founder */
+.panel-col-bottom {
+  padding-bottom: 60px; }
+  .panel-col-bottom .field-name-field-basic-image {
+    float: right;
+    width: 40%;
+    margin-right: -180px; }
+    .panel-col-bottom .field-name-field-basic-image img {
+      border-radius: 100%; }
+  .panel-col-bottom .field-name-body {
+    float: left;
+    width: 60%;
+    font-weight: 100;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    margin-left: 90px;
+    color: #58585A;
+    line-height: 1.35em;
+    /* Founders Links */ }
+    .panel-col-bottom .field-name-body h2 {
+      margin-left: -3px; }
+    .panel-col-bottom .field-name-body a {
+      text-decoration: none;
+      color: #58585A; }
+      .panel-col-bottom .field-name-body a:hover {
+        color: #0DAFB5; }
+    .panel-col-bottom .field-name-body .contact-details {
+      float: right;
+      margin-right: -330px;
+      /* Founder's Website*/ }
+      .panel-col-bottom .field-name-body .contact-details ul {
+        margin-left: -15px;
+        margin-top: 10px;
+        list-style-type: none;
+        padding: 0px; }
+        .panel-col-bottom .field-name-body .contact-details ul li {
+          display: inline;
+          padding: 5px; }
+          .panel-col-bottom .field-name-body .contact-details ul li a {
+            color: #086a6e; }
+            .panel-col-bottom .field-name-body .contact-details ul li a:hover {
+              color: #070707; }
+      .panel-col-bottom .field-name-body .contact-details .founders-website {
+        margin-left: -60px;
+        font-weight: 800;
+        color: #0DAFB5;
+        font-family: "Source Sans Pro", sans-serif; }
+        .panel-col-bottom .field-name-body .contact-details .founders-website a {
+          font-weight: normal; }
+          .panel-col-bottom .field-name-body .contact-details .founders-website a:hover {
+            color: #0DAFB5; }
+
 footer {
   font-size: 12px;
   background: #555555;
