@@ -95,6 +95,14 @@ html, body {
           .the-founder .field-name-body .contact-details .founders-website a:hover {
             color: #0DAFB5; }
 
+.the-ladies-article .left {
+  float: left;
+  width: 30%; }
+
+.the-ladies-article .right {
+  float: right;
+  width: 70%; }
+
 footer {
   font-size: 12px;
   background: #555555;
@@ -287,14 +295,32 @@ header {
       padding: 20px 40px; }
       .the-ladies .view-the-ladies .views-row .views-field-field-lady-image {
         padding-bottom: 10px; }
+        .the-ladies .view-the-ladies .views-row .views-field-field-lady-image:hover .overlay {
+          opacity: 0.8; }
+        .the-ladies .view-the-ladies .views-row .views-field-field-lady-image .overlay {
+          background-color: #086a6e;
+          top: 140px;
+          color: #0DAFB5;
+          z-index: 1;
+          opacity: 0;
+          width: 210px;
+          height: 0;
+          padding: 100px 45px;
+          position: absolute; }
+          .the-ladies .view-the-ladies .views-row .views-field-field-lady-image .overlay span {
+            background-color: #fff;
+            padding: 10px;
+            opacity: 0.9;
+            font-family: "Source Sans Pro", sans-serif; }
       .the-ladies .view-the-ladies .views-row .views-field-title {
         font-weight: 400;
         font-family: "Source Sans Pro", sans-serif;
-        font-size: 18px; }
+        font-size: 18px;
+        border: 1px solid #0DAFB5;
+        margin-top: -14px;
+        padding: 10px; }
         .the-ladies .view-the-ladies .views-row .views-field-title a {
           text-decoration: none;
-          color: #58585A; }
-          .the-ladies .view-the-ladies .views-row .views-field-title a:hover {
-            color: #0DAFB5; }
+          color: #0DAFB5; }
 
 /* No files to import found in pages//* */

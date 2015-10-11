@@ -24,17 +24,39 @@
       padding: 20px 40px;
       .views-field-field-lady-image{
         padding-bottom: 10px;
+        &:hover{
+          .overlay{
+            opacity: 0.8;
+          }
+        }
+        .overlay{
+          background-color: darken($primary_color, 15%);
+          top: 140px;
+          color: #0DAFB5;
+          z-index: 1;
+          opacity: 0;
+          width: 210px;
+          height: 0;
+          padding: 100px 45px;
+          position: absolute;
+          span{
+            background-color: $white;
+            padding: 10px;
+            opacity: 0.9;
+            font-family: $paragraphs;
+          }
+        }
       }
       .views-field-title{
         font-weight: 400;
         font-family: $paragraphs;
         font-size: 18px;
+        border: 1px solid $primary_color;
+        margin-top: -14px;
+        padding: 10px;
         a{
           text-decoration: none;
-          color: $thelady_menu_item_color;
-          &:hover{
-            color: $primary-color;
-          }
+          color: $primary_color;
         }
       }
     }
