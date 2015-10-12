@@ -98,10 +98,33 @@ html, body {
 .the-ladies-article .left {
   float: left;
   width: 30%; }
+  .the-ladies-article .left .related-posts {
+    padding-left: 30px; }
+    .the-ladies-article .left .related-posts h2 {
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 30px;
+      font-weight: 400; }
 
 .the-ladies-article .right {
   float: right;
   width: 70%; }
+  .the-ladies-article .right h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 400; }
+  .the-ladies-article .right .article-body {
+    font-weight: 100;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    color: #58585A;
+    line-height: 1.35em;
+    padding-top: 10px;
+    text-align: justify;
+    padding-right: 80px; }
+  .the-ladies-article .right .social-links h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 500; }
 
 footer {
   font-size: 12px;

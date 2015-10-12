@@ -6,8 +6,11 @@
     float: left;
     width: 30%;
     .related-posts{
-      h3{
-
+      padding-left: 30px;
+      h2{
+        font-family: $paragraphs;
+        font-size: 30px;
+        font-weight: 400;
       }
     }
   }
@@ -15,17 +18,37 @@
     float: right;
     width: 70%;
     h2{
-
+      font-family: $paragraphs;
+      font-size: 30px;
+      font-weight: 400;
     }
     .article-image{
 
     }
     .article-body{
-
+      font-weight: 100;
+      font-family: $paragraphs;
+      font-size: 18px;
+      color: $thelady_menu_item_color;
+      line-height: 1.35em;
+      padding-top: 10px;
+      text-align: justify;
+      padding-right: 80px;
     }
     .social-links{
       h2{
+        font-family: $paragraphs;
+        font-size: 30px;
+        font-weight: 500;
+      }
+      ul{
+        li{
+          a{
+            &:hover{
 
+            }
+          }
+        }
       }
     }
   }

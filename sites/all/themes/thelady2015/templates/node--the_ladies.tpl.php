@@ -88,7 +88,7 @@ dpm($node, "node");
     <article class="the-ladies-article">
       <div class="left">
         <div class="related-posts">
-          <h3>Related Posts</h3>
+          <h2>Related Posts</h2>
           <?php print render($region['sidebar_first']); ?>
         </div>
       </div>
@@ -99,9 +99,6 @@ dpm($node, "node");
         </div>
         <div class="article-body" <?php print $content_attributes; ?>>
           <?php print render($content['body']); ?>
-        </div>
-        <div class="social-links">
-          <h2>Connect with the lady</h2>
         </div>
       </div>
     </article>
