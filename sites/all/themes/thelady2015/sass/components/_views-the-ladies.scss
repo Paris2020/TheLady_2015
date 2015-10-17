@@ -31,13 +31,13 @@
         }
         .overlay{
           background-color: darken($primary_color, 15%);
-          top: 140px;
+          top: 25.9em;
           color: #0DAFB5;
           z-index: 1;
           opacity: 0;
           width: 210px;
           height: 0;
-          padding: 100px 45px;
+          padding: 101px 45px;
           position: absolute;
           span{
             background-color: $white;

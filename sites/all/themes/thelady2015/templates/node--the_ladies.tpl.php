@@ -81,6 +81,7 @@
  */
 //dpm($content, "content");
 dpm($node, "node");
+
 ?>
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
@@ -89,7 +90,17 @@ dpm($node, "node");
       <div class="left">
         <div class="related-posts">
           <h2>Related Posts</h2>
-          <?php print render($region['sidebar_first']); ?>
+          <?php
+            $views_block = module_invoke('views','block_view','latest_blog_posts-block');
+            print render($views_block);
+          ?>
+        </div>
+        <div class="comment-posts">
+          <h2>Comment Here</h2>
+          <ul>
+            <li><a target="_blank" href="http://www.facebook.com/thelady2015" class="fa fa-facebook-official fa-3x"></a></li>
+              <li><a target="_blank" href="https://twitter.com/TheLady2015" class="fa fa-twitter fa-3x"></a></li>
+          </ul>
         </div>
       </div>
       <div class="right">

@@ -13,6 +13,9 @@ html, body {
   background: #fff;
   box-shadow: black 0px 0px 30px; }
 
+.region-content {
+  padding-bottom: 100px; }
+
 /* @font-face or @import fonts here */
 /* The story behind - The Lady */
 .the-story {
@@ -95,36 +98,69 @@ html, body {
           .the-founder .field-name-body .contact-details .founders-website a:hover {
             color: #0DAFB5; }
 
-.the-ladies-article .left {
-  float: left;
-  width: 30%; }
-  .the-ladies-article .left .related-posts {
-    padding-left: 30px; }
-    .the-ladies-article .left .related-posts h2 {
+.the-ladies-article {
+  padding-bottom: 60px; }
+  .the-ladies-article .left {
+    float: left;
+    width: 30%; }
+    .the-ladies-article .left .related-posts {
+      margin-left: 30px;
+      top: 39.5em;
+      position: absolute; }
+      .the-ladies-article .left .related-posts h2 {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 30px;
+        font-weight: 900; }
+      .the-ladies-article .left .related-posts .view-latest-blog-posts .views-row {
+        padding: 20px 20px 20px 10px;
+        border: 1px solid #0EB2B8;
+        margin: 5px 0; }
+        .the-ladies-article .left .related-posts .view-latest-blog-posts .views-row:hover {
+          color: #fff;
+          background-color: #0EB2B8;
+          border: 1px solid #58585A; }
+        .the-ladies-article .left .related-posts .view-latest-blog-posts .views-row .views-field-title {
+          font-family: "Source Sans Pro", sans-serif;
+          font-weight: 200;
+          font-size: 18px; }
+          .the-ladies-article .left .related-posts .view-latest-blog-posts .views-row .views-field-title a {
+            color: #58585A;
+            text-decoration: none; }
+    .the-ladies-article .left .comment-posts {
+      position: absolute;
+      top: 60em;
+      padding-left: 30px; }
+      .the-ladies-article .left .comment-posts h2 {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 30px;
+        font-weight: 400; }
+      .the-ladies-article .left .comment-posts ul {
+        list-style-type: none;
+        margin-left: -40px; }
+        .the-ladies-article .left .comment-posts ul li {
+          display: inline;
+          padding: 5px; }
+          .the-ladies-article .left .comment-posts ul li a {
+            color: #043c3e;
+            text-decoration: none; }
+            .the-ladies-article .left .comment-posts ul li a:hover {
+              color: #58585A; }
+  .the-ladies-article .right {
+    float: right;
+    width: 70%; }
+    .the-ladies-article .right h2 {
       font-family: "Source Sans Pro", sans-serif;
       font-size: 30px;
       font-weight: 400; }
-
-.the-ladies-article .right {
-  float: right;
-  width: 70%; }
-  .the-ladies-article .right h2 {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 30px;
-    font-weight: 400; }
-  .the-ladies-article .right .article-body {
-    font-weight: 100;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 18px;
-    color: #58585A;
-    line-height: 1.35em;
-    padding-top: 10px;
-    text-align: justify;
-    padding-right: 80px; }
-  .the-ladies-article .right .social-links h2 {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 30px;
-    font-weight: 500; }
+    .the-ladies-article .right .article-body {
+      font-weight: 100;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 18px;
+      color: #58585A;
+      line-height: 1.35em;
+      padding-top: 10px;
+      text-align: justify;
+      padding-right: 80px; }
 
 footer {
   font-size: 12px;
@@ -322,13 +358,13 @@ header {
           opacity: 0.8; }
         .the-ladies .view-the-ladies .views-row .views-field-field-lady-image .overlay {
           background-color: #086a6e;
-          top: 140px;
+          top: 25.9em;
           color: #0DAFB5;
           z-index: 1;
           opacity: 0;
           width: 210px;
           height: 0;
-          padding: 100px 45px;
+          padding: 101px 45px;
           position: absolute; }
           .the-ladies .view-the-ladies .views-row .views-field-field-lady-image .overlay span {
             background-color: #fff;
