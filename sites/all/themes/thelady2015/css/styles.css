@@ -162,6 +162,77 @@ html, body {
       text-align: justify;
       padding-right: 80px; }
 
+.events-list-article .left {
+  float: left;
+  width: 30%; }
+  .events-list-article .left .related-events {
+    margin-left: 30px;
+    top: 39.5em;
+    position: absolute; }
+    .events-list-article .left .related-events h2 {
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 30px;
+      font-weight: 900; }
+    .events-list-article .left .related-events .view-latest-events-posts .views-row {
+      padding: 20px 20px 20px 10px;
+      border: 1px solid #0EB2B8;
+      margin: 5px 0; }
+      .events-list-article .left .related-events .view-latest-events-posts .views-row:hover {
+        color: #fff;
+        background-color: #0EB2B8;
+        border: 1px solid #58585A; }
+      .events-list-article .left .related-events .view-latest-events-posts .views-row .views-field-title {
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 200;
+        font-size: 18px; }
+        .events-list-article .left .related-events .view-latest-events-posts .views-row .views-field-title a {
+          color: #58585A;
+          text-decoration: none; }
+  .events-list-article .left .comment-events {
+    position: absolute;
+    top: 60em;
+    padding-left: 30px; }
+    .events-list-article .left .comment-events h2 {
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 30px;
+      font-weight: 400; }
+    .events-list-article .left .comment-events ul {
+      list-style-type: none;
+      margin-left: -40px; }
+      .events-list-article .left .comment-events ul li {
+        display: inline;
+        padding: 5px; }
+        .events-list-article .left .comment-events ul li a {
+          color: #043c3e;
+          text-decoration: none; }
+          .events-list-article .left .comment-events ul li a:hover {
+            color: #58585A; }
+
+.events-list-article .right {
+  float: right;
+  width: 70%; }
+  .events-list-article .right h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 400; }
+  .events-list-article .right .events-intro .field-name-field-event-date {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    font-size: 18px; }
+  .events-list-article .right .events-intro .field-name-field-venue {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    font-size: 18px; }
+  .events-list-article .right .events-body {
+    font-weight: 100;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    color: #58585A;
+    line-height: 1.35em;
+    padding-top: 10px;
+    text-align: justify;
+    padding-right: 80px; }
+
 footer {
   font-size: 12px;
   background: #555555;
