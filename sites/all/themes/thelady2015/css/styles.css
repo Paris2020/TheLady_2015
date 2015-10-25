@@ -105,7 +105,7 @@ html, body {
     width: 30%; }
     .the-ladies-article .left .related-posts {
       margin-left: 30px;
-      top: 39.5em;
+      top: 32em;
       position: absolute; }
       .the-ladies-article .left .related-posts h2 {
         font-family: "Source Sans Pro", sans-serif;
@@ -128,7 +128,7 @@ html, body {
             text-decoration: none; }
     .the-ladies-article .left .comment-posts {
       position: absolute;
-      top: 60em;
+      top: 56em;
       padding-left: 30px; }
       .the-ladies-article .left .comment-posts h2 {
         font-family: "Source Sans Pro", sans-serif;
@@ -171,7 +171,8 @@ footer {
   color: #fff;
   /* Facebook & Twitter Social Links */
   /* Entity Form */
-  /* Footer Navigation */ }
+  /* Footer Navigation */
+  /* Back to top */ }
   footer .footer-social-links {
     float: right;
     padding: 0 60px;
@@ -255,6 +256,20 @@ footer {
             text-decoration: none; }
             footer .footer-nav .right ul li a:hover {
               color: #0DAFB5; }
+  footer .uparrow {
+    background: url("../images/back_to_top.png") no-repeat;
+    cursor: pointer;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 20px;
+    height: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none; }
 
 header .site-logo img {
   padding-top: 10px; }

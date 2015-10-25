@@ -1,0 +1,53 @@
+// ALL THE MIXINS OF THE SITE GO IN HERE
+// =============================================================================
+
+// ROTATE THE IMAGE
+// -----------------------------------------------------------------------------
+
+@mixin rotate( $degrees ) {
+  -webkit-transform: rotate(#{$degrees}deg);
+  -moz-transform: rotate(#{$degrees}deg);
+  -ms-transform: rotate(#{$degrees}deg);
+  -o-transform: rotate(#{$degrees}deg);
+   transform: rotate(#{$degrees}deg);
+ }
+
+// ADD THE GRAYSCALE
+// -----------------------------------------------------------------------------
+
+ @mixin grayscale ($perc) {
+  filter: grayscale($perc); /* Current draft standard */
+  -webkit-filter: grayscale($perc); /* New WebKit */
+  -moz-filter: grayscale($perc);
+  -ms-filter: grayscale($perc);
+  -o-filter: grayscale($perc); /* Not yet supported in Gecko, Opera or IE */
+   filter: url(resources.svg#desaturate); /* Gecko */
+   filter: gray; /* IE */
+  -webkit-filter: grayscale(1); /* Old WebKit */
+ }
+
+// REMOVE THE GRAYSCALE
+// -----------------------------------------------------------------------------
+
+@mixin remove_grayscale ($perc) {
+  filter: grayscale($perc); /* Current draft standard */
+  -webkit-filter: grayscale($perc); /* New WebKit */
+  -moz-filter: grayscale($perc);
+  -ms-filter: grayscale($perc);
+  -o-filter: grayscale($perc); /* Not yet supported in Gecko, Opera or IE */
+   filter: url(resources.svg#desaturate); /* Gecko */
+   filter: gray; /* IE */
+  -webkit-filter: grayscale(0); /* Old WebKit */
+ }
+
+
+ // OVERLAY OVER PROFILE IMAGE
+ // ----------------------------------------------------------------------------
+
+@mixin add_overlay ($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  transition: $transition;
+}

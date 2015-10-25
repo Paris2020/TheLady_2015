@@ -127,4 +127,17 @@ footer{
       }
     }
   }
+
+  /* Back to top */
+  .uparrow{
+    background: url('../images/back_to_top.png') no-repeat;
+    cursor: pointer;
+    @include rotate(90);
+    width: 20px;
+    height: 30px;
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    display:none;
+  }
 }

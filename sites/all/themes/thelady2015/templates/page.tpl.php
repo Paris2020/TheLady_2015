@@ -154,7 +154,7 @@
         </div>
       </nav>
     <?php // end Footer ?>
-    <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow89.js"></script>
+    <div class="uparrow" id="uparrow"></div></script>
   </footer>
 </div>
 </div>
