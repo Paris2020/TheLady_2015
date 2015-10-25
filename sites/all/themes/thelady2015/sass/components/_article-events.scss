@@ -1,101 +1,101 @@
-// // STYLING FOR NODE--EVENTS.TPL.PHP
-// // =============================================================================
+// STYLING FOR NODE--EVENTS.TPL.PHP
+// =============================================================================
 
-// .events-list-article{
-//   .left{
-//     float: left;
-//     width: 30%;
-//     .related-events{
-//       margin-left: 30px;
-//       top: 39.5em;
-//       position: absolute;
-//       h2{
-//         font-family: $paragraphs;
-//         font-size: 30px;
-//         font-weight: 900;
-//       }
-//       .view-latest-events-posts{
-//         .views-row{
-//           padding: 20px 20px 20px 10px;
-//           border: 1px solid $thelady_menu_items_bgcolor;
-//           margin: 5px 0;
-//           &:hover{
-//             color: $white;
-//             background-color: $thelady_menu_items_bgcolor;
-//             border: 1px solid $thelady_menu_item_color;
-//           }
-//           .views-field-title{
-//             font-family: $paragraphs;
-//             font-weight: 200;
-//             font-size: 18px;
-//             a{
-//               color: $thelady_menu_item_color;
-//               text-decoration: none;
-//             }
-//           }
-//         }
-//       }
-//     }
-//     .comment-events{
-//       position: absolute;
-//       top: 60em;
-//       padding-left: 30px;
-//       h2{
-//         font-family: $paragraphs;
-//         font-size: 30px;
-//         font-weight: 400;
-//       }
-//       ul{
-//         list-style-type: none;
-//         margin-left: -40px;
-//         li{
-//           display: inline;
-//           padding: 5px;
-//           a{
-//             color: darken($primary_color, 25%);
-//             text-decoration: none;
-//             &:hover{
-//               color: $thelady_menu_item_color;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-//   .right{
-//     float: right;
-//     width: 70%;
-//     h2{
-//       font-family: $paragraphs;
-//       font-size: 30px;
-//       font-weight: 400;
-//     }
-//     .events-intro{
-//       .field-name-field-event-image{
-//         img{
+.events-list-article{
+   .left{
+     float: left;
+     width: 30%;
+     .related-events{
+       margin-left: 30px;
+       top: 39.5em;
+       position: absolute;
+       h2{
+         font-family: $paragraphs;
+         font-size: 30px;
+         font-weight: 900;
+       }
+       .view-latest-events-posts{
+         .views-row{
+           padding: 20px 20px 20px 10px;
+           border: 1px solid $thelady_menu_items_bgcolor;
+           margin: 5px 0;
+           &:hover{
+             color: $white;
+             background-color: $thelady_menu_items_bgcolor;
+             border: 1px solid $thelady_menu_item_color;
+           }
+           .views-field-title{
+             font-family: $paragraphs;
+             font-weight: 200;
+             font-size: 18px;
+             a{
+               color: $thelady_menu_item_color;
+               text-decoration: none;
+             }
+           }
+         }
+       }
+     }
+     .comment-events{
+       position: absolute;
+       top: 60em;
+       padding-left: 30px;
+       h2{
+         font-family: $paragraphs;
+         font-size: 30px;
+         font-weight: 400;
+       }
+       ul{
+         list-style-type: none;
+         margin-left: -40px;
+         li{
+           display: inline;
+           padding: 5px;
+           a{
+             color: darken($primary_color, 25%);
+             text-decoration: none;
+             &:hover{
+               color: $thelady_menu_item_color;
+             }
+           }
+         }
+       }
+     }
+   }
+   .right{
+     float: right;
+     width: 70%;
+     h2{
+       font-family: $paragraphs;
+       font-size: 30px;
+       font-weight: 400;
+     }
+     .events-intro{
+       .field-name-field-event-image{
+         img{
 
-//         }
-//       }
-//       .field-name-field-event-date{
-//         font-family: $paragraphs;
-//         font-weight: 300;
-//         font-size: 18px;
-//       }
-//       .field-name-field-venue{
-//         font-family: $paragraphs;
-//         font-weight: 300;
-//         font-size: 18px;
-//       }
-//     }
-//     .events-body{
-//       font-weight: 100;
-//       font-family: $paragraphs;
-//       font-size: 18px;
-//       color: $thelady_menu_item_color;
-//       line-height: 1.35em;
-//       padding-top: 10px;
-//       text-align: justify;
-//       padding-right: 80px;
-//     }
-//   }
-// }
+         }
+       }
+       .field-name-field-event-date{
+         font-family: $paragraphs;
+         font-weight: 300;
+         font-size: 18px;
+       }
+       .field-name-field-venue{
+         font-family: $paragraphs;
+         font-weight: 300;
+         font-size: 18px;
+       }
+     }
+     .events-body{
+       font-weight: 100;
+       font-family: $paragraphs;
+       font-size: 18px;
+       color: $thelady_menu_item_color;
+       line-height: 1.35em;
+       padding-top: 10px;
+       text-align: justify;
+       padding-right: 80px;
+     }
+   }
+ }
